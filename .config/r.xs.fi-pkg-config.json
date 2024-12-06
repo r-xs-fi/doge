@@ -1,0 +1,5 @@
+{
+	"not_building_for_platforms_because": {
+		"linux/riscv64": "Python base image not available"
+	}
+}

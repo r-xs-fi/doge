@@ -2,7 +2,11 @@
 	"for_description_of_this_file_see": "https://github.com/function61/turbobob",
 	"version_major": 1,
 	"project_name": "doge",
+	"meta": {
+		"description": "Container image for doge - a simple motd script based on the slightly stupid but very funny doge meme.",
+		"website": "https://github.com/Olivia5k/doge"
+	},
 	"docker_images": [
-		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/doge" }
+		{ "tag_latest": true, "image": "ghcr.io/r-xs-fi/doge", "platforms": ["linux/amd64", "linux/arm64", "linux/arm/v7"] }
 	]
 }
